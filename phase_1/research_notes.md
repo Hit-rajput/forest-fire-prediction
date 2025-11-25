@@ -84,7 +84,7 @@ Note: Jaafari & Pourghasemi used 28 variables — the list above groups them; we
 
 - Jaafari, A., & Pourghasemi, H. R. (2019). Factors influencing regional-scale wildfire probability in Iran: An application of Random Forest and Support Vector Machine. In Spatial Modeling in GIS and R for Earth and Environmental Sciences (pp. 607–619). Elsevier. DOI: 10.1016/B978-0-12-815226-3.00028-4.
 - Additional useful data sources: Copernicus (Sentinel-2, ERA5), USGS (Landsat), MODIS active fire products, SRTM/ASTER DEMs, BC Data Catalogue (provincial roads, fire perimeters, settlements).
-- (User-provided source) https://www.sciencedirect.com/science/article/pii/S2590197425000485
+ https://www.sciencedirect.com/science/article/pii/S2590197425000485
 
 ---
 
