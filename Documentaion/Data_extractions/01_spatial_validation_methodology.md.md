@@ -31,7 +31,6 @@ To resolve this, we rejected the raw bounding box approach in favor of a **vecto
 3.  **Aggregate:** Only weather points falling strictly *within* the official polygon are retained.
 
 ### Visual Verification
-*(Insert your "Cookie Cutter" plot here showing the green kept points vs. red dropped points)*
 
 ![Spatial Masking Visualization](../../Images/masking.png)
 
