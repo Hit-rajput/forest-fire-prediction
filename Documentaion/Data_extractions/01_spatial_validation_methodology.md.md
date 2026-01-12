@@ -33,7 +33,7 @@ To resolve this, we rejected the raw bounding box approach in favor of a **vecto
 ### Visual Verification
 *(Insert your "Cookie Cutter" plot here showing the green kept points vs. red dropped points)*
 
-![Spatial Masking Visualization](Images/masking.png)
+![Spatial Masking Visualization](../../Images/masking.png)
 
 
 ### Python Implementation
