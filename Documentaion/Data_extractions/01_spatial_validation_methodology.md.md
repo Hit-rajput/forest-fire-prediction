@@ -37,7 +37,7 @@ To resolve this, we rejected the raw bounding box approach in favor of a **vecto
 
 ### Python Implementation
 The following function was implemented to automate this filtering process:
-
+This script defines a function filter_weather_points that takes your raw weather grid (from an API) and the official government polygon, then keeps only the points that fall strictly inside the region.
 ```python
 def filter_weather_points(weather_df, region_polygon):
     """
@@ -55,3 +55,7 @@ def filter_weather_points(weather_df, region_polygon):
     filtered_gdf = gpd.sjoin(weather_gdf, region_polygon, how="inner", predicate="within")
 
     return pd.DataFrame(filtered_gdf.drop(columns=['geometry', 'index_right']))
+References
+Hell, M., & Brandmeier, M. (2024). Identifying plausible labels from noisy training data for a land use and land cover classification application in Amazônia Legal. Remote Sensing, 16(12), 2080.
+
+Buzzelli, M. (2020). Modifiable Areal Unit Problem. In International Encyclopedia of Human Geography (2nd ed., pp. 169–173). Elsevier.
