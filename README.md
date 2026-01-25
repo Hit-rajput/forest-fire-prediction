@@ -16,7 +16,7 @@ To effectively showcase the problem case and visualize historical data trends, w
 ## 📍 Geographic Scope & Region Overlay
 The research is strictly bounded to the **Cariboo Fire Centre**. Visualizing the specific boundaries and fire zones is critical for spatial validation.
 
-![Cariboo Region Overlay Map](Images\Region\Region_overay.png)
+![Cariboo Region Overlay Map](Images/Region/Region_overay.png)
 
 *Figure 1: Overlay map detailing the Cariboo Fire Centre boundaries and relevant fire zones (Chilcotin, 100 Mile House, Quesnel, Central Cariboo) used for data sampling.*
 
