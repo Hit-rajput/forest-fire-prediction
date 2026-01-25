@@ -10,13 +10,12 @@ To effectively showcase the problem case and visualize historical data trends, w
 
 **[➡️ Click here to view the full interactive Tableau Story](https://public.tableau.com/views/CanadianForestFIres/FInalStory?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
-![Tableau Story Overview](Images\Dashboards\GIf_dashboard_map_area.gif)
-![Additional Visual Analysis](INSERT_LINK_TO_YOUR_SECOND_GIF_HERE)
+![Tableau Story Overview](https://user-images.githubusercontent.com/74038190/212749695-a6817c5a-a794-462b-afca-1b5ce7dd5e63.gif)
 
 ## 📍 Geographic Scope & Region Overlay
 The research is strictly bounded to the **Cariboo Fire Centre**. Visualizing the specific boundaries and fire zones is critical for spatial validation.
 
-![Cariboo Region Overlay Map](Images\Region\Region_overay.png)
+![Cariboo Region Overlay Map](Images/Region/Region_overay.png)
 
 *Figure 1: Overlay map detailing the Cariboo Fire Centre boundaries and relevant fire zones (Chilcotin, 100 Mile House, Quesnel, Central Cariboo) used for data sampling.*
 
