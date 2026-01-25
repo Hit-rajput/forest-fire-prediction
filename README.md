@@ -23,18 +23,21 @@ The research is strictly bounded to the **Cariboo Fire Centre**. Visualizing the
 This study targets the **Cariboo Fire Centre**, a massive 10.3-million-hectare administrative zone in BC's central interior. This region serves as a critical case study due to two distinct factors:
 1.  **The Mountain Pine Beetle (MPB) Legacy:** Millions of hectares of lodgepole pine were compromised by the MPB infestation (peaking in the mid-2000s), creating chaotic and heavy surface fuel loads that decouple fire intensity from traditional weather predictions.
 2.  **The 2017 Season Anomaly:** The analysis specifically includes the historic 2017 season, characterized by a "flash drought" and mega-fires like the **Plateau Fire** and **Elephant Hill Fire**. This "outlier class" allows us to train models to recognize the meteorological precursors to extreme fire events.
-
+   
 ## 🎯 Objectives
-- **Replication & Extension:** Replicate comparative analysis of **K-Nearest Neighbors (KNN), Decision Trees (DT), Logistic Regression (LR), and Support Vector Machines (SVM)** to validate their efficacy in the Cariboo's distinct "rain shadow" ecosystem.
+The primary goal of this research is to move beyond standard classification by introducing evolutionary computing techniques:
+
+- **🧬 Genetic Algorithm Proposal (Main Aim):** Design and propose a novel **Genetic Algorithm (GA)** framework to optimize model hyperparameters and feature selection. The objective is to achieve superior prediction capabilities compared to traditional "off-the-shelf" algorithms.
+- **Comparative Matrix Analysis:** Rigorously compare performance metrics (Accuracy, Precision, Recall, F1-Score) across standard classifiers: **K-Nearest Neighbors (KNN), Decision Trees (DT), Logistic Regression (LR), and Support Vector Machines (SVM)**.
 - **Robust Data Engineering:** Accurately merge historical fire incident data with meteorological records using **KDTree (K-Dimensional Tree)** spatial indexing to solve the "Point-to-Point" correlation problem.
 - **Intensity Proxies:** Utilize **Fire Size Class (A-E)** as a proxy for fire intensity to overcome the lack of historical flame-length data.
-- **Feature Optimization:** Integrate calculated **Fire Weather Index (FWI)** components—specifically the **Drought Code (DC)**—to capture deep soil moisture deficits that drive underground burns.
 
 ## 🛠️ Methodology
 The project follows a rigorous data science pipeline:
-1.  **Data Acquisition (Current Phase):** Mining historical fire incidents (BC Wildfire Service) and meteorological data (Environment Canada) specifically for the Cariboo region.
-2.  **Spatial Merging:** Implementing a **KDTree** algorithm to map random fire coordinates to the nearest valid "Anchor Station" (e.g., **Williams Lake A, Quesnel Airport, Puntzi Mountain, 100 Mile House**).
-3.  **Algorithmic Evaluation:** Testing whether KNN retains its predictive supremacy (seen in other regions) or if the Cariboo's non-linear fire behavior favors Decision Trees.
+1.  **Data Acquisition:** Mining historical fire incidents (BC Wildfire Service) and meteorological data (Environment Canada) specifically for the Cariboo region.
+2.  **Spatial Merging:** Implementing a **KDTree** algorithm to map random fire coordinates to the nearest valid "Anchor Station" (e.g., **Williams Lake A, Quesnel Airport**).
+3.  **Baseline Modeling:** Establishing baseline performance metrics using standard KNN, DT, LR, and SVM classifiers.
+4.  **Evolutionary Optimization:** Implementing the proposed **Genetic Algorithm** to evolve the model parameters over successive generations, aiming to maximize the F1-Score for the minority "Mega-Fire" class.
 
 ## 📂 Dataset References
 The project utilizes data from the following sources:
