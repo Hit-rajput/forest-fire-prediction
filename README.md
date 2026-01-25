@@ -1,7 +1,7 @@
 # Ishkode-Forest Fire Prediction
 ### *Predictive Modeling of Wildfire Intensity in the Cariboo Fire Centre*
 
-![Status](https://img.shields.io/badge/Current_Phase-Data_Gathering_(Cariboo_Region)-orange?style=for-the-badge&logo=python)
+![Status](https://img.shields.io/badge/Current_Phase-Model_Development_&_Optimization-blue?style=for-the-badge&logo=python)
 
 Forest fires pose a significant threat to ecosystems, wildlife, and human lives. Early detection and accurate prediction are crucial for effective fire management. This project focuses specifically on the **Cariboo Fire Centre** in British Columbia, utilizing Machine Learning (ML) to predict fire intensity in an environment defined by unique ecological challenges.
 
