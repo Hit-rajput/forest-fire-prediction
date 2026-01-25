@@ -10,7 +10,7 @@ To effectively showcase the problem case and visualize historical data trends, w
 
 **[➡️ Click here to view the full interactive Tableau Story](https://public.tableau.com/views/CanadianForestFIres/FInalStory?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
-![Tableau Story Overview](Images/Dashboards/Dashboard_1.gif)
+![Tableau Story Overview](Images/Dashboards/Dashboard_final.gif)
 
 ## 📍 Geographic Scope & Region Overlay
 The research is strictly bounded to the **Cariboo Fire Centre**. Visualizing the specific boundaries and fire zones is critical for spatial validation.
