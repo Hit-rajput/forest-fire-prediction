@@ -10,7 +10,7 @@ To effectively showcase the problem case and visualize historical data trends, w
 
 **[➡️ Click here to view the full interactive Tableau Story](https://public.tableau.com/views/CanadianForestFIres/FInalStory?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
-![Tableau Story Overview](https://github.com/Hit-rajput/forest-fire-prediction/blob/92d891324584ffcb2a904b2578d5a2a1d8277990/Images/Dashboards/GIf_dashboard_map_area.gif)
+![Tableau Story Overview]([https://github.com/Hit-rajput/forest-fire-prediction/blob/92d891324584ffcb2a904b2578d5a2a1d8277990/Images/Dashboards/GIf_dashboard_map_area.gif](https://user-images.githubusercontent.com/74038190/212749695-a6817c5a-a794-462b-afca-1b5ce7dd5e63.gif)
 
 ## 📍 Geographic Scope & Region Overlay
 The research is strictly bounded to the **Cariboo Fire Centre**. Visualizing the specific boundaries and fire zones is critical for spatial validation.
